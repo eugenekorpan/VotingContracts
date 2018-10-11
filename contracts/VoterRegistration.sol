@@ -15,7 +15,7 @@ contract VoterRegistration {
     _;
   }
 
-  function isRegisterd(address voter) view public returns (bool) {
+  function isRegistered(address voter) view public returns (bool) {
     return registered[voter];
   }
 
